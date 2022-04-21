@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    z1: <input type="number" placeholder="Realni dio" id="z1r"><input type="number" placeholder="Imaginarni dio" id="z1i">
+    <br>
+    z2: <input type="number" placeholder="Realni dio" id="z2r"><input type="number" placeholder="Imaginarni dio" id="z2i">
+    </div>
+
+
+    <div>
+    <label for="operacija">Operacija:</label>
+    <select name="operacije" id="operacija">
+    <option value="zbrajanje">Zbrajanje</option>
+    <option value="pomnozi">pomnozi</option>
+    </select>
+    </div>
+
+    Rezultat: <input type="text" placeholder="Realni dio" id="rez">
+    <button onclick="ispis();">Ispis</button>
+</body>
+<script src="kompleksni_broj.js"></script>
+</html>
